@@ -1,0 +1,62 @@
+body{
+    background: lightslategray;
+}
+.border-info-subtle{
+    background-color: darkgrey;
+}
+.margin_padding{
+    margin-top: 5px;
+    padding: 5px;
+}
+.each_frame{
+    width: 100%;
+    height: auto;
+    background: lightsteelblue;
+}
+.mainframe{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#dashboard{
+    display: block;
+}
+#borrow_book{
+    display: none;
+}
+#return_book{
+    display: none;
+}
+#view_book{
+    display: none;
+}
+#new_stock{
+    display: none;
+}
+#add_student{
+    display: none;
+}
+#view_student{
+    display: none;
+}
+#add_book{
+    display: none;
+}
+.each_menu{
+    min-height: 85vh;
+    margin: 5px;
+}
+.mainmenu{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#home{
+    display: block;
+}
+#manage_book{
+    display: none;
+}
+#manage_student{
+    display: none;
+}
