@@ -6,7 +6,7 @@ Steps to Setup :-
 
 2- Create table inside "library" database named "users" with columns "id", "email", "password" by running nelow code :-
 
-```CREATE TABLE `library`.`users` ( `id` INT NOT NULL AUTO_INCREMENT,  `email` TEXT NOT NULL ,  `password` TEXT NOT NULL , PRIMARY KEY  (`id`));```
+```CREATE TABLE `library`.`users` ( `id` INT NOT NULL AUTO_INCREMENT,  `email` varchar(30) NOT NULL ,  `password` varchar(30) NOT NULL , PRIMARY KEY  (`id`));```
 
 
 Thats all you need.
